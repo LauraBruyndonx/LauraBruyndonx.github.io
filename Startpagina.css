@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.bol {
+	margin: auto;
+	width: 530px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	display: block;
+	transform: translate(-50%,-50%)
+	
+}
+
+
+.welkom {
+	
+	margin: auto;
+	width: 390px;
+	top: 9%;
+	left: 50%;
+	position: absolute;
+	display: block;
+	transform: translate(-50%,-50%)
+	
+}
+
+nav {
+	color:white;
+	display: inline-block;
+	border: 0px solid;
+	top:5%;
+	transform: translate(-50%/-50%);
+	position: absolute;
+	width: 500px;
+}
+ul {
+	list-style-type: none;
+	display: inline-block;
+}
+li {
+	display: inline;
+	padding: 0px 10px;
+}
+ ul li:not(:last-child){
+        border-right: 2px solid 
+	 rgba(153, 151, 151, 1); 
+    }
+nav.a {
+	
+}
+
+
+.buttonOpmaak {
+	display: inline-block;
+    background-color:#325A89; /* Green */
+    border: 0px solid red;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	color: white;
+}
+.buttonOpmaak:not(:last-child){ 
+	margin-right: 50px;
+    }
+.buttonOpmaak:hover {
+	background:#186D54;
+}
+.containerButtons {
+	position:absolute;
+	top: 88%;
+	left: 47%;
+    transform: translate(-40%,-50%);
+	width: auto;
+	display: inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    margin:0px auto;
+    border:0px red solid;
+
+}
+
+button.a {
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+}
+button.a: hover {
+	color: white;
+}	
+	
+
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color:#D4D4D4;
+  text-align: center;
+}
+
+
+	

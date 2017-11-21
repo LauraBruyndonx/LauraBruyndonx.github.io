@@ -1,0 +1,209 @@
+/* CSS Document */
+
+/*TITEL*/
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.tekst1{
+	font-family:'DK Sushi Bar';
+    color:#0A4251;
+    font-size:85px;
+    text-transform: uppercase;
+    text-align: center;
+	text-decoration: underline;
+ } 
+/*lettertype naam*/
+.menuNaam 
+ { font-family:'Gloss And Bloom';
+ color: black;
+ text-align: center;
+ font-size: 25px;
+ }
+
+/*Titels */
+.tekst4
+ { font-family:'DK Sushi Bar';
+    color:#11573C;
+    text-align: center;
+	 font-size: 57px;
+	
+			 
+ }
+/*Tekst in kaders */
+.tekst5
+	{font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	color: white;
+	text-align: center;
+	font-size: 18px;
+		
+	}
+/*MENU*/
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+	text-align: center;
+	overflow: hidden;
+	background-color:#0A4B3D;
+
+	
+}
+
+li {float: left;
+    display: inline;
+	font-family:Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+	
+	
+	 
+	}
+
+li a{
+	display: block;
+	color:white;
+	text-decoration: none;
+	padding: 10px;
+	font-family:Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+	
+		
+}
+
+li a:hover{ 
+	background-color:#109786; padding: 12px;
+	
+}
+.centerUL {
+	margin: auto;
+	width: 646px;
+}
+
+/*menu laten floaten bij scrollen*/
+
+.menusticky { 
+	position: sticky;
+	position: -webkit-sticky; 
+	top:0;
+	padding: 0; 
+	background: #0A4B3D;
+    width: 100%;
+	
+}
+
+/*kaders met tekst*/ 
+#rcorners4 {
+    border-radius: 15px 50px;
+    background-color: #0A4251; 
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+    width: 500px;
+    height: 90px; 
+	align-content: center;
+	float: inherit;
+	text-align: center;
+}
+
+/* Achtergrond afbeelding */
+
+body{
+
+	background-repeat: no-repeat;
+
+	background-position: center; 
+
+	background-attachment: fixed;
+
+	background-size: cover;
+
+}
+
+/* Table */
+
+table, th, td {
+    border: 0.5px solid white;
+    border-collapse: collapse;
+	margin: auto;
+	left: auto;
+	background-color: #0D4B3D;
+	color: white;
+	font-size: 15px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+	border:hidden;
+}
+
+
+/* Logo's bovenaan */
+
+navv {
+	color:white;
+	display: inline-block;
+	border: 0px solid;
+	top:40%;
+	transform: translate(-50%/-50%);
+	position: absolute;
+	width: 300px;
+}
+ull {
+	list-style-type: none;
+	display: inline-block;
+}
+lli {
+	display: inline;
+	padding: 0px 10px;
+}
+ ull li:not(:last-child){
+        border-right: 2px solid 
+	 rgba(153, 151, 151, 1); 
+    }
+
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  top: 4020px;
+  left: 0;
+  padding: 75px;
+  background-color:#0D4B3D;
+  text-align: center;
+}
+
+/* Logo's in footer */
+
+navfooter {
+	color:white;
+	display: inline-block;
+	border: 0px solid;
+	top:10px;
+	left: auto;
+	right: 560px;
+	position: absolute;
+}
+ulfooter {
+	list-style-type: none;
+	display: inline-block;
+}
+lifooter {
+	display: inline;
+	padding: 0px 10px;
+}
+
+
+
+
+
+
+
+
+/* CSS Document */
+
